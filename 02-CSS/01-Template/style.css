@@ -1,0 +1,43 @@
+.header {
+    height: 104px;
+    background-color: #2C3D4F;
+    padding: 40px;
+    box-sizing: border-box;
+    /* text-transform : uppercase => Yazı karakterlerinin hepsinin büyük harfle yazılmasını sağlar. */
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header h1 {
+    float: left;
+    color: #fff;
+    font-size: 28px;
+    margin: 0px;
+    font-weight: 600;
+
+}
+
+.header ul {
+    float: right;
+    color: #fff;
+    list-style: none;
+    /* Yazıların başlarında bulunan noktanın kalkmasını sağlar */
+    margin: 0px;
+    padding: 0px;
+}
+
+.header ul li {
+    float: left;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.header ul li:hover {
+    color: #19BC9C;
+    /* Cursor => yazının üstüne geldiğimizde imlecin değişmesi  */
+    cursor: pointer;
+}

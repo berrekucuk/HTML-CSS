@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 350px;
+            border-style: solid;
+            border-width: 3px;
+        }
+
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <!-- Bir element display: flex; ise çocuk elementlerin flex dizayn uygulanır.-->
+    <!-- Flex dizayn, elementleri yan yana, ortada,tersine olmasını sağlayan dizayn sistemi -->
+    
+    <!-- justify-content,bir flex container'ın içindeki flex öğelerini yatay (row) veya dikey (column) olarak hizalamanızı sağlar. -->
+    <!-- flex-start: Öğeleri flexbox container'ın sol tarafına hizalar.
+         flex-end: Öğeleri flexbox container'ın sağ tarafına hizalar.
+         center: Öğeleri flexbox container'ın ortasına hizalar.
+         space-between: Öğeler eşit aralıklarla yatay şekilde yayılır
+         space-around: Öğeler etraflarında eşit aralıklar olacak şekilde yatay şekilde yayılır -->
+
+    <!-- align-items: center; yazıların dikey yönde hizalanmasını sağlar. -->
+    <div class="container">
+        <div class="box">BOX-1</div>
+        <div class="box">BOX-2</div>
+        <div class="box">BOX-3</div>
+    </div>
+</body>
+</html>

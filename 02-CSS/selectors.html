@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            margin: 20px;
+            padding: 20px;
+            border: 5px solid black;
+            box-sizing: border-box;
+        }
+
+        .box:hover{
+            background-color: blue;
+        }
+
+        /* .(nokta) işaretinin anlamı class seçicisidir. Class seçicisi ile bir elemanı seçmek için . işareti kullanılır.  */
+        .box span{
+            color: white;
+        }
+
+        /* # işareti id seçiciyi temsil eder. id seçici ile bir elemanı seçmek için # işareti kullanılır. */
+        #title{
+            color: red;
+        }       
+
+    </style>
+</head>
+<body>
+    <!-- class, birden çok elementi yakalamak için kulanılabilir. -->
+    <!-- id, sadece bir elementi yakalamak için verilir. -->
+    <h1 id="title">Site Title</h1>
+
+    <span>Istanbul</span>
+
+    <div class="box">
+        BOX-1
+        <span>Berre Küçük</span>
+    </div>
+    <div class="box">
+        BOX-2
+    </div>
+    <div class="box">
+        BOX-3
+    </div>
+</body>
+</html>
