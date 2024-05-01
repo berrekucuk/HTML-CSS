@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #008cff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    /* transition, hover kullanırken saniye vererek rengin daha yavaş değişmesini sağlayabiliriz. */
+    /* transform: scale(100%);   
+    transition: background-color 0.5s, transform .5s; */
+} 
+    
+
+.animated-button:hover{
+    background-color:#ff5900;
+    color: green;
+    /* transform: scale(150%); */
+}
+/* 
+.special-button{
+    position: relative;
+    top: 0px;
+    background-color: green;
+    /* transition işlemesi için hoverda yazılı olanın bu kısımda da tanımlı olması gerek. 
+    transition: top .5s;
+}
+
+.special-button:hover{
+    top: 20px;
+} 
+ */
+
+ .rotate{
+    animation: rotate 1.5s infinite;
+ }
+
+ @keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+ }
+
+ .bounce{
+    animation: bounce 1s infinite;
+ }
+
+ @keyframes bounce{
+    0%, 100%{
+        transform: translateV(0);
+    }
+    100%{
+        transform: translateV(-20px)
+    }
+ }
+
+ .fadeIn{
+    opacity: 0;
+    animation: fadeIn 1s infinite;
+ }
+
+ @keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+ }
+
+
+

@@ -1,0 +1,14 @@
+POSITION
+
+CSS'de "position" özelliği, bir HTML öğesinin belirlenen yerde nasıl konumlandırılacağını kontrol etmek için kullanılır. "position" özelliği, dört ana değere sahiptir:
+
+1- Static: Bu, bir öğenin varsayılan konumlamasını ifade eder. Öğeler varsayılan olarak statik olarak konumlandırılır ve normal akış içinde görünürler. Diğer "position" değerleri belirtilmediği sürece, öğeler statik olarak işlenir.
+
+2- Relative: Bir öğenin normal konumlamasına göre nispeten konumlandırılmasını sağlar. Öğe, normal akış içinde bulunduğu konumdan belirtilen miktarda sağa, sola, yukarı veya aşağıya kaydırılabilir. Diğer öğeler üzerindeki etkisi sınırlıdır.
+
+3- Absolute: Bir öğenin normal akıştan çıkarılıp, en yakın "pozisyonlandırılmış" veya "belirtilen" üst öğeye göre konumlandırılmasını sağlar. Diğer öğeler üzerindeki etkisi önemli ölçüde olabilir. Sayfanın belirli bir konumuna sabitlenmiş bir öğe oluşturmak için sıklıkla kullanılır.
+
+4- Fixed: Bir öğenin tarayıcı penceresine göre sabitlenmesini sağlar. Bu, sayfanın diğer kısımları kaydırılsa bile öğenin sabit kalacağı anlamına gelir. Genellikle sabit menüler veya bildirimler oluşturmak için kullanılır.
+
+"position" özelliğini kullanırken, öğenin belirli bir genişlik ve yükseklik değerlerine sahip olması ve "z-index" özelliğiyle öğelerin yığın sıralamasını düzenlemek için dikkatli olmak önemlidir.
+
